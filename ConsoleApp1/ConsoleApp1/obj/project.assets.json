@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kolumb/Desktop/College/III Rok/2 semestr/APBD/apbd_c2/apbd_c2/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+      "projectUniqueName": "/Users/kolumb/Desktop/apbd_c2/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "/Users/kolumb/Desktop/College/III Rok/2 semestr/APBD/apbd_c2/apbd_c2/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+      "projectPath": "/Users/kolumb/Desktop/apbd_c2/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
       "packagesPath": "/Users/kolumb/.nuget/packages/",
-      "outputPath": "/Users/kolumb/Desktop/College/III Rok/2 semestr/APBD/apbd_c2/apbd_c2/ConsoleApp1/ConsoleApp1/obj/",
+      "outputPath": "/Users/kolumb/Desktop/apbd_c2/ConsoleApp1/ConsoleApp1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kolumb/.nuget/NuGet/NuGet.Config"

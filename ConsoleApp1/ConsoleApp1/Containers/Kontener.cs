@@ -8,11 +8,13 @@ public class Kontener
     public double _wagaWlasna{get;set;}
     private double _glebokosc;
     private string _numerSeryjny;
+
     public double _maksymalnaPojemnosc{get;set;}
 
     //Konstruktory
     public Kontener(double masaLadunku, double wysokosc, double glebokosc, int numer, string typ = "Zwykły")
     {
+        
         _masaLadunku = masaLadunku;
         _wysokosc = wysokosc;
         _glebokosc = glebokosc;

@@ -5,10 +5,10 @@ namespace ConsoleApp1.Containers;
 public class L :Kontener
 {
     private string _rodzajLadunku;
-    public string ladunek { get; set; }
-    public L(double masaLadunku, double wysokosc, double glebokosc, int numer, string typ = "L", string rodzajLadunku = "Zwykły")
+    public L(double masaLadunku, double wysokosc, double glebokosc, int numer, string rodzajLadunku, string typ = "L")
         : base(masaLadunku, wysokosc, glebokosc, numer, typ)
     {
+        Console.WriteLine("Podaj rodzaj ladunku");
         _rodzajLadunku = rodzajLadunku;
         IHazardNotifier.Notify(rodzajLadunku, base.PokazNumerSeryjny());
     }

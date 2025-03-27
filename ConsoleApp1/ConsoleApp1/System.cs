@@ -324,16 +324,26 @@ public class System
 
         
         _licznik++;
-        switch (input)
+        switch (typ)
         {
             case "L":
-                _kontenery.Add(new L(masaLadunku, wysokosc, glebokosc, _licznik, typ));
+                Console.WriteLine("Podaj rodzaj ładunku: ");
+                var rll = Console.ReadLine();
+                _kontenery.Add(new L(masaLadunku, wysokosc, glebokosc, _licznik, rll,typ));
                 break;
             case "G":
-                _kontenery.Add(new G(masaLadunku, wysokosc, glebokosc, _licznik, typ));
+                Console.WriteLine("Podaj rodzaj ładunku: ");
+                var rl = Console.ReadLine();
+                Console.WriteLine("Podaj cisnienie: ");
+                var tmp = Console.ReadLine();
+                var cisnienie = double.Parse(tmp);
+                
+                _kontenery.Add(new G(masaLadunku, wysokosc, glebokosc, _licznik, cisnienie, rl, typ));
                 break;
             case "C":
-                _kontenery.Add(new C(masaLadunku, wysokosc, glebokosc, _licznik, typ));
+                Console.WriteLine("Podaj rodzaj ładunku: ");
+                var crl = Console.ReadLine();
+                _kontenery.Add(new C(masaLadunku, wysokosc, glebokosc, _licznik, crl, typ));
                 break;
             default:
                 _kontenery.Add(new Kontener(masaLadunku, wysokosc, glebokosc, _licznik));
